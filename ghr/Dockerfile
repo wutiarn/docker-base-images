@@ -9,5 +9,3 @@ RUN wget https://github.com/tcnksm/ghr/releases/download/v0.5.3/ghr_v0.5.3_linux
     mv ghr /usr/local/bin/
 
 RUN ghr -v
-
-ENTRYPOINT ghr
