@@ -1,3 +1,4 @@
 FROM docker:dind
 
-CMD --experimental
+ENTRYPOINT []
+CMD ["dockerd-entrypoint.sh", "--experimental"]
