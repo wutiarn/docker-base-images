@@ -1,3 +1,3 @@
 FROM docker:dind
 
-cmd --experimental
+CMD --experimental
