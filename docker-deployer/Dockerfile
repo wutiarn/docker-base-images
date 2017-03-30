@@ -1,4 +1,4 @@
-FROM docker:1.13-rc
+FROM docker
 
 ADD run.sh /
 
